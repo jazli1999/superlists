@@ -5,6 +5,7 @@ from django.http import HttpRequest
 from django.template.loader import render_to_string
 
 class HomePageTest(TestCase):
+
     def test_root_url_resolve_to_home_page_view(self):
         found = resolve('/')
         self.assertEqual(found.func, home_page)
