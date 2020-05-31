@@ -30,7 +30,7 @@ Assume we have a user account at /home/username
 ```
 /home/username
 └── sites
-    └── 175.24.97.61
+    └── SITENAME
         ├── database
         ├── source
         ├── static
